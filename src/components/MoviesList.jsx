@@ -82,7 +82,7 @@ const MoviesList = (props) => {
             onChange={(e) => setFilteredList(e.target.value)}
           />
         </CenterDiv>
-        <ul>
+        <ul className="center-ul">
           {props.fullmovies
             .filter((m) => m.title.toLowerCase().includes(filteredList))
             .map((movie) => (
