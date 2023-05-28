@@ -1,0 +1,31 @@
+.logout {
+    color: white;
+    cursor: pointer
+}
+
+.addMovieButton {
+    color: white;
+    cursor: pointer;
+    margin-right: 1rem;
+    
+}
+
+.navigation-ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 400px) {
+  
+    .addMovieButton {
+        font-size: x-large !important;
+    }
+    .logout {
+        font-size: x-large !important;
+    }
+    .navigation-ul{
+        flex-wrap: wrap;
+    }
+  
+  }

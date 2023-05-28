@@ -1,0 +1,17 @@
+.header {
+    background: rgb(11,13,94);
+    background: linear-gradient(90deg, rgb(31, 61, 130) 0%, rgba(5,174,208,1) 100%);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+    align-items: center;
+}
+
+@media (max-width: 400px) {
+  
+    .header-h1 {
+        font-size: large;
+    }
+  
+  }

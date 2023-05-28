@@ -1,0 +1,9 @@
+.width-div{
+    width: 25rem;
+}
+
+.space-container{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}

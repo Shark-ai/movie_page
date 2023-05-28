@@ -1,0 +1,10 @@
+.card {
+    border-radius: 0.75rem;
+    box-shadow: 0 0.063rem 0.5rem rgba(0, 0, 0, 0.25);
+    display: inline-flex;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    list-style: none;
+    width: 25rem;
+    background-color: white;
+}

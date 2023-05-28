@@ -1,0 +1,15 @@
+.card-login {
+    background-color: white;
+    padding: 2rem 0rem 2rem 0rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signUp {
+    color: rgba(60, 154, 210);
+    text-decoration: underline;
+    cursor: pointer;
+}

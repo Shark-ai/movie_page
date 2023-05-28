@@ -1,0 +1,68 @@
+.toMovieButton {
+    background-color: rgba(60, 154, 210);
+    color: white;
+    cursor: pointer;
+    border-bottom-right-radius: 0.75rem;
+    }
+
+.fadingTitle{
+      line-height: 2rem;
+      height: calc( 2*2rem);
+      overflow: hidden;
+      position: relative;
+    }
+
+.fadingTitle::after{
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 2rem;
+      width: 75%;
+
+      background: linear-gradient(90deg, transparent, rgb(52, 135, 185));
+    }
+
+.fadingText{
+      line-height: 1.313rem;
+      height: calc( 3*1.313rem);
+      overflow: hidden;
+      position: relative;
+    }
+
+.fadingText::after{
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 1.313rem;
+      width: 75%;
+
+      background: linear-gradient(90deg, transparent, white);
+    }
+
+.title-container {
+      background: rgb(52, 135, 185);
+      height: 4rem;
+      width: 25rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+.date-time {
+  padding-top: 1rem;
+  padding-bottom: 1rem
+}
+
+.bottom-right-button {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-top: 1rem
+}
+
+.space-div {
+  display:flex ;
+  justify-content: space-between;
+}
