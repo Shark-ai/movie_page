@@ -4,3 +4,9 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
+@media (max-width: 420px) {
+    .center-div{
+        max-width: 80vw;
+      }
+    }

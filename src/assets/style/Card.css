@@ -8,4 +8,10 @@
     width: 25rem;
     background-color: white;
 }
+
+@media (max-width: 420px) {
+    .card{
+        max-width: 80vw;
+      }
+    }
     

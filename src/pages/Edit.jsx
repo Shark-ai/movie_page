@@ -72,6 +72,7 @@ const Edit = () => {
         <ColumnDiv>
           <Tooltip title="Delete" arrow>
             <DeleteForeverRoundedIcon
+              className="delete-button-width"
               style={{
                 marginTop: "1rem",
                 backgroundColor: "rgba(60, 154, 210)",
@@ -85,6 +86,7 @@ const Edit = () => {
           <Tooltip title="Edit" arrow>
             <Link to={`/update/${id}`}>
               <EditNoteRoundedIcon
+                className="edit-button-width"
                 style={{
                   marginTop: "1rem",
                   backgroundColor: "rgba(60, 154, 210)",
@@ -98,6 +100,7 @@ const Edit = () => {
           <Tooltip title="Back" arrow>
             <Link to="/main/1">
               <KeyboardBackspaceRoundedIcon
+                className="back-button-width"
                 style={{
                   marginTop: "1rem",
                   backgroundColor: "rgba(60, 154, 210)",
