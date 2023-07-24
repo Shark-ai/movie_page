@@ -16,7 +16,7 @@ const Movie = (props) => {
   const navigate = useNavigate();
   return (
     <Card>
-      <li>
+      <li className="movie-container">
         <div className="title-container">
           <h2 className="fadingTitle">{props.title}</h2>
         </div>
